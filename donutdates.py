@@ -25,4 +25,4 @@ print("Pairing done, " + str(len(pairs)) + " pairs created!")
 print("")
 print("Generating message to copy to Slack: ")
 for pair in pairs:
-  print("@" + pair[0] + "\t -- \t@" + pair[1])
+  print("@" + pair[0] + " - @" + pair[1])
